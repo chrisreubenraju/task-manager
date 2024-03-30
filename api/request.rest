@@ -1,0 +1,24 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Get the Eggs"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6606e958c98a38078bcb0b2d 
+
+###
+
+PUT http://localhost:3001/todo/complete/65fddf4fec30b040e4002e12
+
+###
+
+PUT http://localhost:3001/todo/update/65fddf4fec30b040e4002e12
+
+###
